@@ -1,24 +1,24 @@
 class Car
   attr_accessor :color
-  attr_reader :drivers_names
+  attr_reader :number, :drivers
 
 
   def initialize(number)
   	@number = number
   	@color = 'white'
-  	@drivers_names = []
+  	@drivers = []
   end
 
   def beep
     puts "beep, beep"
   end
 
-  def add_driver(name)
-  	@drivers_names << name
+  def add_driver(driver)
+  	@drivers << driver
   end
 
   def show_drivers
-  	@drivers_names.each {|name| puts name}
+  	@drivers.each {|driver| puts driver.name}
   end
 
 end
