@@ -1,4 +1,5 @@
 class Car
+  attr_accessor :color
 
   def initialize(number)
   	@number = number
@@ -9,12 +10,4 @@ class Car
     puts "beep, beep"
   end
 
-  def color=(color)
-  	@color = color
-  end
-
-  def color
-  	@color
-  end
-  
 end
