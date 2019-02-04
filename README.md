@@ -7,3 +7,5 @@ third step
 add getter and setter for @color variable
 forth step
 add methods to make drivers_name array and to show it
+5th step
+add driver class (with @name attribute and its getter)
