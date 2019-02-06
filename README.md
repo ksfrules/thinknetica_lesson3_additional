@@ -9,3 +9,5 @@ forth step
 add methods to make drivers_name array and to show it
 5th step
 add driver class (with @name attribute and its getter)
+6th step
+change Car class to interact with Driver class
